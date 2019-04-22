@@ -1,1 +1,6 @@
+This is a tutorial that define that how google place picker Api work. According to the policy of 
+google the place picker is depreciated and the new version of place picker is available but the 
+new version is difficult and very confusing. below code show the simplest guide to implement the 
+place picker Api of google into android application. This is for learning purpose
 
+The two pictures are for Google place picker API
