@@ -38,3 +38,6 @@ AppBar(
   ),
 ),
 `````
+## Here is the output
+
+![Image](https://raw.githubusercontent.com/AminullahTajMuhammad/Today-I-learned/master/flutter/Icons%20Theme.png)
