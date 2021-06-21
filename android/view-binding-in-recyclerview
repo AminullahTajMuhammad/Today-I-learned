@@ -1,0 +1,7 @@
+override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
+   return Holder(LayoutInflater.from(context).inflate(R.layout.list_item_recycler, parent, false))
+}
+
+inner class Holder(itemView: View): RecyclerView.ViewHolder(itemView) {
+        val binding = ListItemRecycler.bind(itemView)
+}
