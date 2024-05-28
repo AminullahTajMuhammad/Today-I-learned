@@ -1,0 +1,12 @@
+in app/build.grade file add this line
+signingConfigs {
+    release {
+        storeFile file("<LINK>/keystore_file.jks")
+        storePassword "XXXXXX"
+        keyAlias "<Key Name>"
+        keyPassword "XXXXXX"
+    }
+}
+
+then run this command 
+flutter build appbundle --target-platform android-arm,android-arm64,android-x64
